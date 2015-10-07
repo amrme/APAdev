@@ -74,16 +74,16 @@ $(document).ready(function(){
 
 // on hover fade out and display name of memeber
 
-$( ".member" ).hover(function() {
- $(this).children("a").fadeTo( 150, 0.33 );
- $(this).find('.member-name').fadeIn(150);
+$( ".member" ).children("a").hover(function() {
+ $(this).fadeTo( 150, 0.33 );
+ $(this).parent().find('.member-name').fadeIn(150);
  // $(this).append("Member");
  // $( this ).fadeIn( 500 );
 });
 
-$(".member").mouseleave(function() {
-  $(this).children("a").fadeTo( 50, 1 );
-  $(this).find('.member-name').fadeOut(50);
+$(".member").children("a").mouseleave(function() {
+  $(this).fadeTo( 20, 1 );
+  $(this).parent().find('.member-name').fadeOut(50);
 });
 
 }); // close out script
