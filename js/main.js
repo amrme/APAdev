@@ -44,7 +44,7 @@ $(document).ready(function(){
    var teamMembers = [
      '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="img/tahona.jpg" alt="Mohamed Khaled" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Mostafa</span><a href="#"><img src="img/mostafa.jpg" alt="Mostafa" class=" img-circle team-img"></a></div>',
-     '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="#"><img src="img/samer.jpg" alt="Samer" class=" img-circle team-img"></a></div>',
+     '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="members/samer.html" target="_blank"><img src="img/samer.jpg" alt="Samer" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Abdelhamid</span><a href="#"><img src="img/abdelhamid.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></a></div>'
 
  ];
