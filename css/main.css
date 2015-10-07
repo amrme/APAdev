@@ -375,3 +375,33 @@ body {
 .product {
   max-width: 100%;
 }
+
+.member{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.team-img{
+  height:200px;
+  width:200px;
+  overflow:hidden;
+  position: relative;
+}
+
+.member-name {
+  /* hide the title */
+  display: none;
+
+  position: absolute;
+   top: 50%;
+   left: 0;
+   width: 100%;
+
+   font-size: 2em;
+
+  /*text-align: center;*/
+  /*margin-left: -500px;*/
+}
