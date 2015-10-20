@@ -255,14 +255,14 @@ a:focus {
 }
 
 .content-section {
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 7%;
+    padding-top: 7%;
 }
 
 @media(min-width:767px) {
     .content-section {
-      padding-bottom: 5%;
-      padding-top: 5%;
+      padding-bottom: 7%;
+      padding-top: 7%;
     }
 }
 
@@ -386,7 +386,7 @@ hr {
 
 }
 
-
+/* procucts color palette http://www.color-hex.com/color-palette/11075*/
 .products-section {
   background-color: #E6E6E6;
   padding-bottom: 5%;
