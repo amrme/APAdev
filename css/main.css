@@ -38,6 +38,14 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+    .circle {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    width: 30%;
+    position: relative;
+    }
+
 }
 
 a {
@@ -135,6 +143,14 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
+
+    .circle {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    width: 30%;
+    position: relative;
+    }
 }
 
 .intro {
@@ -177,6 +193,13 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 26px;
+    }
+    .circle {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    width: 30%;
+    position: relative;
     }
 }
 
@@ -263,6 +286,13 @@ a:focus {
     .content-section {
       padding-bottom: 7%;
       padding-top: 7%;
+    }
+    .circle {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+    width: 30%;
+    position: relative;
     }
 }
 
@@ -410,4 +440,52 @@ hr {
 .team-name {
   font-family: 'Ubuntu', sans-serif;
   font-size: 4em;
+}
+
+/* circle for the view more memebrs */
+.circle {
+margin-left: auto;
+margin-right: auto;
+border-radius: 70%;
+width: 80%;
+/*max-width: 80%;*/
+position: relative;
+}
+
+.circle-border {
+border: 1px solid black;
+}
+
+.circle-solid{
+background-color: whitesmoke;
+}
+
+.circle:before {
+content: "";
+display: block;
+padding-top: 100%;
+}
+
+.circle-inner {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+}
+
+.score-text {
+margin: auto;
+position: absolute;
+/*text-align: center;*/
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+height: 1em;
+line-height: 1em;
+font-size: 2.5em;
+font-weight: bold;
+color: black;
 }

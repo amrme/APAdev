@@ -49,6 +49,8 @@ $(document).ready(function(){
 
  ];
 
+ var moreMembers = '<div class="col-md-3"><a href="team.html" target="_blank"><div class="circle circle-solid"><div class="circle-inner"><div class="score-text">View More Members</div></div></div></a></div>';
+
  // generate array of random numbers
  var randomMember = [];
  for(var i = 0; i < teamMembers.length; i++) {
@@ -71,6 +73,13 @@ $(document).ready(function(){
     $(".members").append(teamMembers[randomMember[i]]);
   }
 
+  // generate 3 memebrs for the home page
+  for(var i = 0; i < 3; i++)
+  {
+    $(".members-min").append(teamMembers[randomMember[i]]);
+  }
+// append view more memebers
+$(".members-min").append(moreMembers);
 
 // on hover fade out and display name of memeber
 
