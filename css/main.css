@@ -385,7 +385,7 @@ body {
 .member-name {
   display: none;
   position: absolute;
-   top: 50%;
+   top: 40%;
    left: 0;
    width: 100%;
    font-size: 2em;
