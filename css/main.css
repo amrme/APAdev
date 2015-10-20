@@ -434,19 +434,23 @@ body {
 .profile-image {
   max-width: 70%;
   display: block;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   margin-left: auto;
-  margin-right: auto;
-  background-color: black !important;
-  padding-bottom: 20%;
+  background-color: white !important;
+  padding-bottom: 23%;
+  /*padding-right: 50%;*/
   border-radius: 5%;
 }
 
 #member-name {
   position: relative;
-    left: 0;
+    left: 55px;
     top: -50px;
     font-size: 2em !important;
     text-transform: capitalize;
+    text-align: center;
+    color: black;
     /*z-index: -1;*/
 }
 
@@ -458,9 +462,16 @@ body {
 }
 
 .about-member {
+  /*display: inline-block;*/
+  /*left: -100px;*/
+  font-family: 'Ubuntu', sans-serif;
   text-align: left;
   font-size: 1.1em;
+  color: black;
 }
+/*.ul-spacing > li {
+  line-height: 190%;
+}*/
 
 hr {
   -moz-border-bottom-colors: none;
@@ -585,8 +596,12 @@ color: black;
   /*font-size: 4em;*/
   margin-left: 5%;
   margin-right: 5%;
+  /*margin-bottom: 25%;*/
   /*text-decoration: none;*/
   /*color: blue;*/
+}
+.member-social {
+  margin-bottom: 25%;
 }
 .fa-stack-1x {
     color:white;

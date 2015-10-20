@@ -44,12 +44,12 @@ $(document).ready(function(){
    var teamMembers = [
      '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="img/tahona.jpg" alt="Mohamed Khaled" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Mostafa</span><a href="#"><img src="img/mostafa.jpg" alt="Mostafa" class=" img-circle team-img"></a></div>',
-     '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="members/samer.html" target="_blank"><img src="img/samer.jpg" alt="Samer" class=" img-circle team-img"></a></div>',
+     '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="members/samer.html"><img src="img/samer.jpg" alt="Samer" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Abdelhamid</span><a href="#"><img src="img/abdelhamid.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></a></div>'
 
  ];
 
- var moreMembers = '<div class="col-md-3"><a href="team.html" target="_blank"><div class="circle circle-solid"><div class="circle-inner"><div class="score-text">View More Members</div></div></div></a></div>';
+ var moreMembers = '<div class="col-md-3"><a href="team.html"><div class="circle circle-solid"><div class="circle-inner"><div class="score-text">View More Members</div></div></div></a></div>';
 
  // generate array of random numbers
  var randomMember = [];
