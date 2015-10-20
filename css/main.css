@@ -478,6 +478,7 @@ text-align: center;
 .score-text {
 margin: auto;
 position: absolute;
+font-family: 'Ubuntu', sans-serif;
 /*text-align: center;*/
 top: 0;
 left: 0;
