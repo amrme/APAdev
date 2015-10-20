@@ -306,6 +306,16 @@ a:focus {
     transition: all .3s ease-in-out;
 }
 
+.btn-normal {
+  border-radius: 6%;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 .btn-default {
     border: 1px solid #42dca3;
     color: #42dca3;
@@ -322,7 +332,7 @@ a:focus {
 
 
 footer {
-    padding: 50px 0;
+    padding: 1% !important;
 }
 
 footer p {
