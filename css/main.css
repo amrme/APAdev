@@ -144,7 +144,6 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
-
     .circle {
     margin-left: auto;
     margin-right: auto;
@@ -283,6 +282,11 @@ a:focus {
     padding-top: 7%;
 }
 
+.memebr-section {
+  padding-bottom: 7% !important;
+  padding-top: 20% !important;
+}
+
 @media(min-width:767px) {
     .content-section {
       padding-bottom: 7%;
@@ -397,6 +401,18 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: black !important;
+  padding-bottom: 20%;
+  border-radius: 5%;
+}
+
+#member-name {
+  position: relative;
+    left: 0;
+    top: -50px;
+    font-size: 2em !important;
+    text-transform: capitalize;
+    /*z-index: -1;*/
 }
 
 .biography > p{
@@ -421,10 +437,6 @@ hr {
   border-style: solid none;
   border-width: 0.3px 0;
   margin: 18px 0;
-}
-
-#samer-body {
-
 }
 
 /* procucts color palette http://www.color-hex.com/color-palette/11075*/
