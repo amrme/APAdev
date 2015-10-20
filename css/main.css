@@ -521,3 +521,26 @@ color: black;
 .thumbnail:hover .caption {
     top:0%;
 }
+
+/* Social Media buttons */
+.social {
+  /*font-size: 4em;*/
+  margin-left: 5%;
+  margin-right: 5%;
+  /*text-decoration: none;*/
+  /*color: blue;*/
+}
+.fa-stack-1x {
+    color:white;
+}
+.icon-facebook {
+   color:#3b5998;
+}
+
+.icon-twitter {
+    color:#00aced;
+}
+/* 007BB6 */
+.icon-linkedin {
+    color:#007BB6;
+}
