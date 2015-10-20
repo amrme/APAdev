@@ -96,6 +96,6 @@ $(".member").children("a").mouseleave(function() {
 });
 
 // $("#contact-vid").tubular({videoId: 'jEFz76973lM'});
-$('body').tubular('jEFz76973lM','contact-vid');
+// $('body').tubular('jEFz76973lM','contact-vid');
 
 }); // close out script
