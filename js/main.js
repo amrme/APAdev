@@ -41,45 +41,46 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
 
-   var teamMembers = [
-     '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="img/tahona.jpg" alt="Mohamed Khaled" class=" img-circle team-img"></a></div>',
-     '<div class="col-md-3 member"><span class="member-name">Mostafa</span><a href="#"><img src="img/mostafa.jpg" alt="Mostafa" class=" img-circle team-img"></a></div>',
-     '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="members/samer.html"><img src="http://i.imgur.com/7jx52I7.jpg?1" alt="Samer" class=" img-circle team-img"></a></div>',
-     '<div class="col-md-3 member"><span class="member-name">Abdelhamid</span><a href="#"><img src="img/abdelhamid.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></a></div>'
+   var team16 = '<div class="col-md-3 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class=" img-circle team-img"></a></div>';
+   var teamMembers16 = [
+     '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="http://i.imgur.com/cwlGcKy.jpg" alt="Mohamed Khaled" class=" img-circle team-img"></a></div>',
+     '<div class="col-md-3 member"><span class="member-name">Mostafa</span><a href="#"><img src="http://i.imgur.com/RJoGtLd.jpg" alt="Mostafa" class=" img-circle team-img"></a></div>',
+     '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="./members/samer.html"><img src="http://i.imgur.com/7jx52I7.jpg?1" alt="Samer" class=" img-circle team-img"></a></div>',
+     '<div class="col-md-3 member"><span class="member-name">Abdelhamid</span><a href="#"><img src="http://i.imgur.com/Gs44kli.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></a></div>'
 
  ];
 
- var moreMembers = '<div class="col-md-3"><a href="team.html"><div class="circle circle-solid"><div class="circle-inner"><div class="score-text">View More Members</div></div></div></a></div>';
+ // var moreMembers = '<div class="col-md-3"><a href="team.html"><div class="circle circle-solid"><div class="circle-inner"><div class="score-text">View More Members</div></div></div></a></div>';
 
  // generate array of random numbers
  var randomMember = [];
- for(var i = 0; i < teamMembers.length; i++) {
-   var tmpMember = Math.floor(Math.random() * teamMembers.length);
+ for(var i = 0; i < teamMembers16.length; i++) {
+   var tmpMember = Math.floor(Math.random() * teamMembers16.length);
  // if non-rep
   while(randomMember.indexOf(tmpMember) != -1)
   {
-    tmpMember = Math.floor(Math.random() * teamMembers.length);
+    tmpMember = Math.floor(Math.random() * teamMembers16.length);
   }
   randomMember.push(tmpMember);
  }
 
  // console.log(randomMember);
  // console.log(randomMember.length);
- // console.log(teamMembers.length);
+ // console.log(teamMembers16.length);
 
  // generate members
-  for(var i = 0; i < teamMembers.length; i++)
+  for(var i = 0; i < teamMembers16.length; i++)
   {
-    $(".members").append(teamMembers[randomMember[i]]);
+    $(".members").append(teamMembers16[randomMember[i]]);
   }
 
-  // generate 3 memebrs for the home page
-  for(var i = 0; i < 3; i++)
-  {
-    $(".members-min").append(teamMembers[randomMember[i]]);
-  }
-// append view more memebers
-$(".members-min").append(moreMembers);
+  // append teams to the homepage
+  // for(var i = 0; i < 1; i++)
+  // {
+  //   $(".members-min").append(teamMembers16[randomMember[i]]);
+  // }
+// append teams to the homepage
+$(".members-min").append(team16);
 
 // on hover fade out and display name of memeber
 
