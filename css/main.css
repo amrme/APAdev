@@ -162,7 +162,7 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: black;*/
-    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.ytimg.com/vi/mCfkDamLD-o/mqdefault.jpg) fixed no-repeat bottom center;*/
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.ytimg.com/vi/mCfkDamLD-o/mqdefault.jpg) fixed no-repeat bottom center;
     /*background-color: #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -496,6 +496,14 @@ hr {
   padding-bottom: 5%;
   padding-top: 5%;
   color: black;
+}
+
+/* normal div color #2d2c2c */
+.normal-section {
+  background-color: #2d2c2c;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  /*color: black;*/
 }
 
 .date {
