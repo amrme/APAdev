@@ -161,7 +161,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(http://i.imgur.com/KOmxkag.jpg) fixed no-repeat bottom center;
+    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(http://i.imgur.com/KOmxkag.jpg) fixed no-repeat bottom center;*/
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -621,3 +621,24 @@ color: black;
 .icon-linkedin {
     color:#007BB6;
 }
+
+/* vedio section */
+#home-sec {
+    height:700px;
+    color:#fff;
+    text-align:center;
+    border-bottom:4px solid #000;
+}
+    #home-sec .overlay {
+        background-color:rgba(0, 0, 0, 0.8);
+        min-height:400px;
+    }
+    #home-sec h1 {
+        padding-top:80px;
+        font-size:50px;
+        font-weight:900;
+        padding-bottom:30px;
+    }
+        #home-sec h1 i {
+            color:#f00;
+    }

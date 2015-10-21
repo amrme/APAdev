@@ -96,6 +96,8 @@ $(".member").children("a").mouseleave(function() {
   $(this).parent().find('.member-name').fadeOut(50);
 });
 
+$(".player").mb_YTPlayer();
+
 // $("#contact-vid").tubular({videoId: 'jEFz76973lM'});
 // $('body').tubular('jEFz76973lM','contact-vid');
 
