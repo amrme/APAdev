@@ -161,8 +161,9 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.ytimg.com/vi/mCfkDamLD-o/mqdefault.jpg) fixed no-repeat bottom center;
-    background-color: #000;
+    /*background: black;*/
+    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.ytimg.com/vi/mCfkDamLD-o/mqdefault.jpg) fixed no-repeat bottom center;*/
+    /*background-color: #000;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
