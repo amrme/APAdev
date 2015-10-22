@@ -41,7 +41,7 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
 
-   var team16 = '<div class="col-md-3 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class="img-circle teams-img"></a></div>';
+   var team16 = '<div class="col-md-4 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class="img-circle teams-img"></a></div>';
    var teamMembers16 = [
      '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="http://i.imgur.com/cwlGcKy.jpg" alt="Mohamed Khaled" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Mostafa</span><a href="#"><img src="http://i.imgur.com/RJoGtLd.jpg" alt="Mostafa" class=" img-circle team-img"></a></div>',
