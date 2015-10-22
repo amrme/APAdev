@@ -423,6 +423,13 @@ body {
   position: relative;
 }
 
+.teams-img {
+  height:300px;
+  width:300px;
+  overflow:hidden;
+  position: relative;
+}
+
 .member-name {
   display: none;
   position: absolute;
