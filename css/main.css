@@ -430,6 +430,13 @@ body {
   position: relative;
 }
 
+.product-image {
+  height:250px !important;
+  width: auto !important;
+  /*width:400px !important;*/
+  overflow:hidden !important;
+}
+
 .member-name {
   display: none;
   position: absolute;
