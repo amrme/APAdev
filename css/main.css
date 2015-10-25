@@ -861,7 +861,7 @@ color: black;
         }
 
         .timeline>li .timeline-panel {
-            padding: 0 120px 20px 100px;
+            padding: 0 110px 20px 0;
         }
 
         .timeline>li .timeline-image {
@@ -876,6 +876,6 @@ color: black;
         }
 
         .timeline>li.timeline-inverted>.timeline-panel {
-            padding: 0 100px 20px 100px;
+            padding: 0 0 20px 100px;
         }
     }
