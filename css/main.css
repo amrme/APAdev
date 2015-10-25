@@ -737,8 +737,9 @@ color: black;
         left: 0;
         width: 80px;
         height: 80px;
+        overflow:hidden;
         margin-left: 0;
-        /*border: 1px solid #black;*/
+        /*border: 7px solid #f1f1f1;*/
         border-radius: 100%;
         text-align: center;
         color: #fff;
@@ -810,6 +811,7 @@ color: black;
             left: 50%;
             width: 100px;
             height: 100px;
+            overflow:hidden;
             margin-left: -50px;
         }
 
@@ -838,6 +840,7 @@ color: black;
         .timeline>li .timeline-image {
             width: 150px;
             height: 150px;
+            overflow:hidden;
             margin-left: -75px;
         }
 
@@ -864,6 +867,7 @@ color: black;
         .timeline>li .timeline-image {
             width: 170px;
             height: 170px;
+            overflow:hidden;
             margin-left: -85px;
         }
 
