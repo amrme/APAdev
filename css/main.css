@@ -846,8 +846,8 @@ color: black;
 
         .timeline>li .timeline-image h4 {
             margin-top: 30px;
-            font-size: 18px;
-            line-height: 26px;
+            font-size: 38px;
+            line-height: 56px;
         }
 
         .timeline>li.timeline-inverted>.timeline-panel {
@@ -857,25 +857,25 @@ color: black;
 
     @media(min-width:1200px) {
         .timeline>li {
-            min-height: 170px;
+            min-height: 250px;
         }
 
         .timeline>li .timeline-panel {
-            padding: 0 20px 20px 100px;
+            padding: 0 120px 20px 100px;
         }
 
         .timeline>li .timeline-image {
-            width: 170px;
-            height: 170px;
+            width: 370px;
+            height: 370px;
             overflow:hidden;
-            margin-left: -85px;
+            margin-left: -185px;
         }
 
         .timeline>li .timeline-image h4 {
-            margin-top: 40px;
+            margin-top: 110px;
         }
 
         .timeline>li.timeline-inverted>.timeline-panel {
-            padding: 0 100px 20px 20px;
+            padding: 0 100px 20px 100px;
         }
     }
