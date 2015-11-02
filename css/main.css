@@ -453,13 +453,11 @@ body {
 }
 
 .profile-image {
-  /*max-width: 70%;*/
   display: block;
   margin-left: auto;
   margin-right: auto;
   background-color: #F5F5F5  !important;
   padding-bottom: 70px;
-  /*padding-right: 50%;*/
   border-radius: 5%;
 }
 
