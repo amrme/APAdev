@@ -458,7 +458,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: #F5F5F5  !important;
-  padding-bottom: 23%;
+  padding-bottom: 70px;
   /*padding-right: 50%;*/
   border-radius: 5%;
 }
@@ -466,7 +466,7 @@ body {
 #member-name {
   position: relative;
     left: 0;
-    top: -70px;
+    top: -50px;
     font-size: 2em !important;
     text-transform: capitalize;
     text-align: center;
