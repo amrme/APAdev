@@ -478,7 +478,7 @@ body {
 .biography > p{
   text-align: left;
   font-size: 1.1em;
-  color: black;
+  /*color: black;*/
   /*padding-top: 4%;*/
 }
 
