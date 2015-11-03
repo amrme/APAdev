@@ -23,7 +23,7 @@ for(var i = 0; i < cto16.length; i++)
 {
   $("#team16").append(cto16[randCTO[i]]);
 }
-// generate members
+// append members
  var randMembers = random_member(teamMembers16);
  for(var i = 0; i < teamMembers16.length; i++)
  {
