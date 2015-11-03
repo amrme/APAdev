@@ -41,18 +41,25 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
 
+   var team16 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class="img-circle teams-img"></a></div>';
+   // append teams to the homepage
+   $(".members-min").append(team16);
 
- // var moreMembers = '<div class="col-md-3"><a href="team.html"><div class="circle circle-solid"><div class="circle-inner"><div class="score-text">View More Members</div></div></div></a></div>';
+   // on hover fade out and display name of memeber
+   $( ".member" ).children("a").hover(function() {
+   $(this).fadeTo(150, 0.03 );
+   // $(this).html('<div styles="background-color:black;"></div>');
+   $(this).parent().find('.member-name').fadeIn(250);
+   // $(this).parent().find('.member-image').fadeTo( 150, 0.33 );
 
- // console.log(randomMember);
- // console.log(randomMember.length);
- // console.log(teamMembers16.length);
+   // $(this).append("Member");
+   // $( this ).fadeIn( 500 );
+   });
 
+   $(".member").children("a").mouseleave(function() {
+    $(this).fadeTo(20, 1 );
+    $(this).parent().find('.member-name').fadeOut(50);
+   });
 
-
-// $(".player").mb_YTPlayer();
-
-// $("#contact-vid").tubular({videoId: 'jEFz76973lM'});
-// $('body').tubular('jEFz76973lM','contact-vid');
 
 }); // close out script
