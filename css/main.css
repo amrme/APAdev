@@ -4,8 +4,8 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: rgb(80, 10, 10);
-    /*background-color: #2d2c2c;*/
+    /*background-color: rgb(80, 10, 10);*/
+    background-color: #2d2c2c;
 }
 
 html {
@@ -344,9 +344,9 @@ a:focus {
 }
 
 .btn {
-    border-radius: 0;
+    /*border-radius: 0;*/
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
