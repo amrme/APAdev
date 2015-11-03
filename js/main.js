@@ -93,7 +93,7 @@ $(".members-min").append(team16);
 // on hover fade out and display name of memeber
 
 $( ".member" ).children("a").hover(function() {
- $(this).fadeTo(150, 0.33 );
+ $(this).fadeTo(150, 0.03 );
  // $(this).html('<div styles="background-color:black;"></div>');
  $(this).parent().find('.member-name').fadeIn(150);
  // $(this).parent().find('.member-image').fadeTo( 150, 0.33 );
