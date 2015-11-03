@@ -18,6 +18,22 @@ $(function() {
     });
 });
 
+// generate random numbers for members in array
+function random_member(arrOfMembers) {
+  // generate array of random numbers
+  var randomMember = [];
+  for(var i = 0; i < arrOfMembers.length; i++) {
+    var tmpMember = Math.floor(Math.random() * arrOfMembers.length);
+  // if non-rep
+   while(randomMember.indexOf(tmpMember) != -1)
+   {
+     tmpMember = Math.floor(Math.random() * arrOfMembers.length);
+   }
+   randomMember.push(tmpMember);
+  }
+  return randomMember;
+}
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();

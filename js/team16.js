@@ -14,21 +14,6 @@ var teamMembers16 = [
   '<div class="col-md-3 member"><span class="member-name">Omar</span><a href="#"><img src="http://i.imgur.com/0URiCIU.jpg" alt="Omar Adel Kassem" class=" img-circle team-img"></a></div>',
 ];
 
-function random_member(arrOfMembers) {
-  // generate array of random numbers
-  var randomMember = [];
-  for(var i = 0; i < arrOfMembers.length; i++) {
-    var tmpMember = Math.floor(Math.random() * arrOfMembers.length);
-  // if non-rep
-   while(randomMember.indexOf(tmpMember) != -1)
-   {
-     tmpMember = Math.floor(Math.random() * arrOfMembers.length);
-   }
-   randomMember.push(tmpMember);
-  }
-  return randomMember;
-}
-
 
 // append CEO
 $("#team16").append(ceo16);
@@ -44,9 +29,3 @@ for(var i = 0; i < cto16.length; i++)
  {
    $("#team16").append(teamMembers16[randMembers[i]]);
  }
-
- // append teams to the homepage
- // for(var i = 0; i < 1; i++)
- // {
- //   $(".members-min").append(teamMembers16[randomMember[i]]);
- // }
