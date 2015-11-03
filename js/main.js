@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -48,18 +42,10 @@ $(document).ready(function(){
    // on hover fade out and display name of memeber
    $( ".member" ).children("a").hover(function() {
    $(this).fadeTo(150, 0.03 );
-   // $(this).html('<div styles="background-color:black;"></div>');
    $(this).parent().find('.member-name').fadeIn(250);
-   // $(this).parent().find('.member-image').fadeTo( 150, 0.33 );
-
-   // $(this).append("Member");
-   // $( this ).fadeIn( 500 );
    });
-
    $(".member").children("a").mouseleave(function() {
     $(this).fadeTo(20, 1 );
     $(this).parent().find('.member-name').fadeOut(50);
    });
-
-
 }); // close out script
