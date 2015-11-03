@@ -284,45 +284,14 @@ a:focus {
     padding-top: 7%;
 }
 
-.memebr-section {
+/*.memebr-section {
   padding-bottom: 7%;
   padding-top: 10% !important;
-}
+}*/
 
 /*==========  Non-Mobile First Method  ==========*/
 
-   /* Large Devices, Wide Screens */
-   @media only screen and (max-width : 1200px) {
-     .memebr-section {
-       padding-bottom: 7% !important;
-       padding-top: 10% !important;
-     }
-   }
-
-   /* Medium Devices, Desktops */
-   @media only screen and (max-width : 992px) {
-     .memebr-section {
-       padding-bottom: 7% !important;
-       padding-top: 30% !important;
-     }
-   }
-
-   /* Small Devices, Tablets */
-   @media only screen and (max-width : 768px) {
-
-   }
-
-   /* Extra Small Devices, Phones */
-   @media only screen and (max-width : 480px) {
-
-   }
-
-   /* Custom, iPhone Retina */
-   @media only screen and (max-width : 320px) {
-
-   }
-
-@media(min-width:767px) {
+  @media(min-width:767px) {
     .content-section {
       padding-bottom: 7%;
       padding-top: 7%;
