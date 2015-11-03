@@ -95,7 +95,7 @@ $(".members-min").append(team16);
 $( ".member" ).children("a").hover(function() {
  $(this).fadeTo(150, 0.03 );
  // $(this).html('<div styles="background-color:black;"></div>');
- $(this).parent().find('.member-name').fadeIn(150);
+ $(this).parent().find('.member-name').fadeIn(250);
  // $(this).parent().find('.member-image').fadeTo( 150, 0.33 );
 
  // $(this).append("Member");
