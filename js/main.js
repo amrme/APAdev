@@ -42,11 +42,11 @@ $(document).ready(function(){
    });  // end section function
 
    var team16 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class="img-circle teams-img"></a></div>';
+   var ceo16 = '<div class="col-md-3 member"><span class="member-name">Abdelhamid<br><span class="label label-warning">CEO</span></span><a href="#"><img src="http://i.imgur.com/Gs44kli.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></a></div>';
    var teamMembers16 = [
-     '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="http://i.imgur.com/cwlGcKy.jpg" alt="Mohamed Khaled" class=" img-circle team-img"></a></div>',
+     '<div class="col-md-3 member"><span class="member-name">Mohamed</span><a href="#"><img src="http://i.imgur.com/cwlGcKy.jpg" alt="Mohamed Khaled" class=" img-circle team-img member-image"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Mostafa<br><span class="label label-primary">CTO</span></span><a href="#"><img src="http://i.imgur.com/RJoGtLd.jpg" alt="Mostafa" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Samer</span><a href="./members/samer.html"><img src="http://i.imgur.com/7jx52I7.jpg?1" alt="Samer" class=" img-circle team-img"></a></div>',
-     '<div class="col-md-3 member"><span class="member-name">Abdelhamid<br><span class="label label-warning">CEO</span></span><a href="#"><img src="http://i.imgur.com/Gs44kli.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Karim</span><a href="#"><img src="http://i.imgur.com/skPTGGD.jpg" alt="Karim Tarek Farag" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Ahmad<br><span class="label label-primary">CTO</span></span><a href="#"><img src="http://i.imgur.com/yOPGkcH.jpg" alt="Ahmad Al-Tawil" class=" img-circle team-img"></a></div>',
      '<div class="col-md-3 member"><span class="member-name">Fouad</span><a href="#"><img src="http://i.imgur.com/wpJWL7T.jpg" alt="Fouad Safawani" class=" img-circle team-img"></a></div>',
@@ -73,6 +73,8 @@ $(document).ready(function(){
  // console.log(randomMember.length);
  // console.log(teamMembers16.length);
 
+ // append CEO
+ $(".members").append(ceo16);
  // generate members
   for(var i = 0; i < teamMembers16.length; i++)
   {
@@ -91,14 +93,17 @@ $(".members-min").append(team16);
 // on hover fade out and display name of memeber
 
 $( ".member" ).children("a").hover(function() {
- $(this).fadeTo( 150, 0.33 );
+ $(this).fadeTo(150, 0.33 );
+ // $(this).html('<div styles="background-color:black;"></div>');
  $(this).parent().find('.member-name').fadeIn(150);
+ // $(this).parent().find('.member-image').fadeTo( 150, 0.33 );
+
  // $(this).append("Member");
  // $( this ).fadeIn( 500 );
 });
 
 $(".member").children("a").mouseleave(function() {
-  $(this).fadeTo( 20, 1 );
+  $(this).fadeTo(20, 1 );
   $(this).parent().find('.member-name').fadeOut(50);
 });
 
