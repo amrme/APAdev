@@ -70,4 +70,17 @@ $(document).ready(function(){
     $(this).fadeTo(20, 1 );
     $(this).parent().find('.member-name').fadeOut(50);
    });
+
+
+  // on hover fade out and display name of memeber without linked page
+  $( ".member" ).children("img").hover(function() {
+  $(this).fadeTo(150, 0.03 );
+  $(this).parent().find('.member-name').fadeIn(250);
+  });
+  $(".member").children("img").mouseleave(function() {
+   $(this).fadeTo(20, 1 );
+   $(this).parent().find('.member-name').fadeOut(50);
+  });
+
+
 }); // close out script
