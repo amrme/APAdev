@@ -5,7 +5,7 @@ var mentors16 = [
   '<div class="col-md-3 member"><span class="member-name">Omar<br>Ibn El Khatab</span><img src="http://i.imgur.com/sjuxYnX.jpg" alt="Omar Ibn El Khatab" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Saad</span><img src="http://i.imgur.com/sZjsGxI.jpg?1" alt="Mohamed Saad" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Mosaad</span><img src="http://i.imgur.com/TAOWNxN.jpg" alt="Mohamed Mosaad" class=" img-circle team-img"></div>',
-  '<div class="col-md-3 member"><span class="member-name">Ramy<br>Abolela</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Mostafa<br>Abdelaal</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
   '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Farouk</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
 ];
 var ceo16 = '<div class="col-md-3 member"><span class="member-name">Abdelhamid<br><span class="label label-warning">CEO</span></span><img src="http://i.imgur.com/Gs44kli.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></div>';
