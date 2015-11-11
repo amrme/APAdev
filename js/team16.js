@@ -4,6 +4,9 @@ var mentors16 = [
   '<div class="col-md-3 member"><span class="member-name">Ahmed<br>Saeed</span><img src="http://i.imgur.com/EsNVtoc.jpg" alt="Ahmed Saeed" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Omar<br>Ibn El Khatab</span><img src="http://i.imgur.com/sjuxYnX.jpg" alt="Omar Ibn El Khatab" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Saad</span><img src="http://i.imgur.com/sZjsGxI.jpg?1" alt="Mohamed Saad" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Mosaad</span><img src="http://i.imgur.com/TAOWNxN.jpg" alt="Mohamed Mosaad" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Ramy<br>Abolela</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Farouk</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
 ];
 var ceo16 = '<div class="col-md-3 member"><span class="member-name">Abdelhamid<br><span class="label label-warning">CEO</span></span><img src="http://i.imgur.com/Gs44kli.jpg" alt="Abdelhamid Kassem" class=" img-circle team-img"></div>';
 var cto16 = [
@@ -16,9 +19,18 @@ var teamMembers16 = [
   '<div class="col-md-3 member"><span class="member-name">Karim</span><img src="http://i.imgur.com/skPTGGD.jpg" alt="Karim Tarek Farag" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Fouad</span><img src="http://i.imgur.com/wpJWL7T.jpg" alt="Fouad Safawani" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Hassen</span><img src="http://i.imgur.com/FCLPknF.jpg" alt="Hassen Mohamed Hassen" class=" img-circle team-img"></div>',
-  '<div class="col-md-3 member"><span class="member-name">Omar</span><img src="http://i.imgur.com/hEZ64RG.jpg" alt="Omar Naguib Ibrahim Ibrahim Mostafa" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Omar</span><img src="http://i.imgur.com/KLBRBoL.jpg?1" alt="Omar Naguib Ibrahim Ibrahim Mostafa" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Omar</span><img src="http://i.imgur.com/0URiCIU.jpg" alt="Omar Adel Kassem" class=" img-circle team-img"></div>',
-];
+  '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/RFqHYlu.jpg?1" alt="Ahmed Abdelmegeed" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Amr</span><img src="http://i.imgur.com/A4znXiH.jpg?1" alt="Amr Mohamed" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Mostafa</span><img src="http://i.imgur.com/9v946js.jpg?1" alt="Mostafa Kahla" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/lYOnVpL.jpg" alt="Ahmed Youssef" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Abdel Rahman</span><img src="http://i.imgur.com/urNzE1O.jpg?1" alt="Abdel Rahman" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Ameer</span><img src="http://i.imgur.com/nkLl6bl.jpg?1" alt="Ameer Mamdouh" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Amr</span><img src="http://i.imgur.com/GQQgUSW.jpg" alt="Amr Raafat" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/6Lpz5mb.jpg?1" alt="Ahmed El-Sayed" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/xZnboo9.jpg" alt="Ahmed El-Shimy" class=" img-circle team-img"></div>',
+  ];
 
 // append supervisor
 $("#supervisor").append(supervisor16);
