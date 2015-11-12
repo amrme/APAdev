@@ -168,15 +168,133 @@
           </div>
         </div>
         <!-- overview -->
-        <div class="col-md-12" style="margin-top:50px;">
-          <h3>Specs</h3>
-          <p>
-            Lorem ipsum dolor sit amet, et has ullum persius gloriatur. Prima civibus his cu. Dico adversarium instructior per ex. Ne dicit nostro salutandi per, et vix sint doming elaboraret. Assum nulla imperdiet an vim, equidem graecis has cu, eum dolorem feugait ex. Minimum philosophia ut mel, nec ex habeo oratio, facete dissentiet ad eam.
-          </p>
-          <!-- <img src="http://i.imgur.com/hRdgMox.jpg" alt="Admiral I"  class="img-responsive"/> -->
-        </div>
       </div>
     </div> <!--- /col-sm-12 col-md-8 -->
+    <!-- Links to download -->
+    <div class="row">
+      <div class="col-md-12">
+        <a href="../files/ROVSpecifications.pdf" class="btn btn-success btn-block" role="button" download>Download Specs Sheet</a>
+      </div>
+    </div>
+    <!-- overview -->
+    <div class="col-md-12" style="margin-top:50px;">
+      <h3>Admiral III Specifications</h3>
+      <div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#mechSpecs" data-toggle="tab">Mechanical Specs</a></li>
+                            <li><a href="#electSpecs" data-toggle="tab">Electrical Specs</a></li>
+
+                        </ul>
+                </div>
+                <div class="panel-body" style="color:black;">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="mechSpecs">
+                          <ol>
+                            <li>
+                              Electric Box
+                              <ul>
+                                <li>Material Type of box: the box made of aluminum to resist water and prevent rusting</li>
+                                <li>Material Type of box cover: the box cover is made of artinol known by its high stiffness that is used to give the required pressure on the gasket when fastened</li>
+                                <li>Material Type of box cover window: the box cover window is made of transparent plastic (acrylic) to give the ability to see the electric circuits inside</li>
+                                <li>Glands: two glands are used made of aluminum to give a smooth connection between the electric circuits and tether that will prevent any water leakage</li>
+                                <li>Gasket: 5mm thickness black gasket is used between the box flange and the box cover to prevent any water leakage</li>
+                                <li>Silicon 999: is used with gasket to give extra safety for electric circuits</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Weight Calculations
+                              <ul>
+                                <li><ul>
+                                  Electric circuits box
+                                  <li>W = 4.275 kg</li>
+                                  <li>LCG = 14.5 cm</li>
+                                  <li>KG = 41 cm</li>
+                                </ul></li>
+                                <li>
+                                  <ul>
+                                    Thrusters
+                                    <li>W = 4*1.5 kg (every single thruster weighs 1.5 kg)</li>
+                                    <li>LCG = 5.8 cm (for the two aft thrusters)</li>
+                                    <li>KG = 9 cm</li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <ul>
+                                    Arm fixation
+                                    <li>W = 2*0.6 kg</li>
+                                    <li>LCG = 70 cm</li>
+                                    <li>KG = 33 cm</li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <ul>
+                                    Vertical thruster
+                                    <li>W = 2.4 kg</li>
+                                    <li>LCG = 36 cm</li>
+                                    <li>KG = 30 cm</li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <ul>
+                                    ROV’s main structure
+                                    <li>W = 7.6 kg</li>
+                                    <li>LCG = 30 cm</li>
+                                    <li>KG = 33 cm</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </div>
+                        <div class="tab-pane fade" id="electSpecs">
+                          <ol>
+                            <li>
+                              Method of Control
+                              <ul>
+                                <li>Controller: PC Keyboard</li>
+                                <li>MCU: PIC Microcontroller</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Programming was done in MikroC
+                            </li>
+                            <li>Hardware was designed in Proteus</li>
+                            <li>
+                              Video Recording Unit
+                              <ul>
+                                <li>4 Channel A/V to USB converter</li>
+                                <li>Maximum 50 fps</li>
+                                <li>One channel real time</li>
+                                <li>4 channel unreal time</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Tether
+                              <ul>
+                                <li>16 meter cable</li>
+                                <li>12 terminals each 1.5mm diameter</li>
+                                <li>Terminals have color code</li>
+                                <li>All terminals are grouped in a single black PVC cover</li>
+                              </ul>
+                            </li>
+                            <li>
+                              Distribution of terminals
+                              <ul>
+                                <li>3 terminals for 48V</li>
+                                <li>4 terminals for GND</li>
+                                <li>2 terminals for communication signals</li>
+                                <li>1 terminal 12V from ROV to the control outside the ROV</li>
+                                <li>2 terminals for the vertical thruster</li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      <!-- <img src="http://i.imgur.com/hRdgMox.jpg" alt="Admiral I"  class="img-responsive"/> -->
+    </div>
   </div> <!--- /row -->
 
 </section>
