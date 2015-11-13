@@ -856,3 +856,13 @@ color: black;
     color: #fff;
     background-color: #555;
 }
+
+
+.team-thumbnail {
+  height:200px;
+  width:400px;
+  overflow:hidden;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 5%;
+}

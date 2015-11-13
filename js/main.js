@@ -51,10 +51,10 @@ $(document).ready(function(){
       }); // end window scroll
    });  // end section function
 
-   var team16 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class="img-responsive"></a></div>';
-   var team15 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2015 Team</span><a href="teams/team15.html"><img src="http://i.imgur.com/xCmX1MR.jpg" alt="2015 AquaPhoton Academy Team" class="img-responsive"></a></div>';
-   var team14 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2014 Team</span><a href="teams/team14.html"><img src="http://i.imgur.com/5AJ1d2y.jpg" alt="2014 AquaPhoton Academy Team" class="img-responsive"></a></div>';
-   var team13 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2013 Team</span><a href="teams/team13.html"><img src="http://i.imgur.com/lL3LBFZ.jpg" alt="2013 AquaPhoton Academy Team" class="img-responsive"></a></div>';
+   var team16 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2016 Team</span><a href="teams/team16.html"><img src="http://i.imgur.com/KOmxkag.jpg" alt="2016 AquaPhoton Academy Team" class="team-thumbnail img-responsive"></a></div>';
+   var team15 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2015 Team</span><a href="teams/team15.html"><img src="http://i.imgur.com/xCmX1MR.jpg" alt="2015 AquaPhoton Academy Team" class="img-responsive team-thumbnail"></a></div>';
+   var team14 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2014 Team</span><a href="teams/team14.html"><img src="http://i.imgur.com/5AJ1d2y.jpg" alt="2014 AquaPhoton Academy Team" class="img-responsive team-thumbnail"></a></div>';
+   var team13 = '<div class="col-sm-12 col-md-4 member"><span class="member-name">2013 Team</span><a href="teams/team13.html"><img src="http://i.imgur.com/lL3LBFZ.jpg" alt="2013 AquaPhoton Academy Team" class="img-responsive team-thumbnail"></a></div>';
    // append teams to the homepage
    $(".members-min").append(team16);
    $(".members-min").append(team15);
