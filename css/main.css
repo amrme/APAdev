@@ -859,8 +859,8 @@ color: black;
 
 
 .team-thumbnail {
-  height:200px;
-  width:400px;
+  height:300px;
+  margin: 0 auto;
   overflow:hidden;
   position: relative;
   border: 2px solid white;
