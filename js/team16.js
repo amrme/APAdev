@@ -26,7 +26,7 @@ var teamMembers16 = [
   '<div class="col-md-3 member"><span class="member-name">Mostafa</span><img src="http://i.imgur.com/9v946js.jpg?1" alt="Mostafa Kahla" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/lYOnVpL.jpg" alt="Ahmed Youssef" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Abdel Rahman</span><img src="http://i.imgur.com/urNzE1O.jpg?1" alt="Abdel Rahman" class=" img-circle team-img"></div>',
-  '<div class="col-md-3 member"><span class="member-name">Ameer</span><img src="http://i.imgur.com/nkLl6bl.jpg?1" alt="Ameer Mamdouh" class=" img-circle team-img"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Ameer</span><img src="http://i.imgur.com/oxRQhGn.jpg" alt="Ameer Mamdouh" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Amr</span><img src="http://i.imgur.com/GQQgUSW.jpg" alt="Amr Raafat" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/6Lpz5mb.jpg?1" alt="Ahmed El-Sayed" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Ahmed</span><img src="http://i.imgur.com/xZnboo9.jpg" alt="Ahmed El-Shimy" class=" img-circle team-img"></div>',
