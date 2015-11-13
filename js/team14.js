@@ -13,7 +13,9 @@ var teamMembers16 = [
   '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Saad</span><img src="http://i.imgur.com/sZjsGxI.jpg?1" alt="Mohamed Saad" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Mosaad</span><img src="http://i.imgur.com/TAOWNxN.jpg" alt="Mohamed Mosaad" class=" img-circle team-img"></div>',
   '<div class="col-md-3 member"><span class="member-name">Mostafa<br>Abdelaal</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
-  '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Farouk</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',  ];
+  '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Farouk</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
+  '<div class="col-md-3 member"><span class="member-name">Mohamed<br>Zaytoon</span><img src="" alt="" class=" img-circle team-img" style="background-color:white;"></div>',
+];
 
 // append supervisor
 var randSup = random_member(supervisor16);
